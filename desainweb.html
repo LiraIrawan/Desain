@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2e4d0; /* Warna latar belakang */
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 5px solid #865000;
+            border-radius: 10px;
+            background-color: #f2ebdf; /* Warna latar belakang */
+            box-shadow: 0 0 15px rgba(31, 17, 1, 0.874); /* Bayangan */
+            overflow: hidden; /* Mencegah overflow */
+        }
+        h1 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .biodata-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .photo {
+            flex: 0 0 auto; /* Tidak tumbuh, tidak menyusut, tetap */
+            width: 130px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .bio-details {
+            flex: 1 1 auto; /* Tumbuh, tidak menyusut, fleksibel */
+            border: 1px solid #7d3d0d;
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .bio-details p {
+            margin: 0;
+        }
+
+        .bio-text {
+            flex: 5 5 auto; /* Tumbuh, tidak menyusut, fleksibel */
+            border: 1px solid #7d3d0d;
+            border-radius: 5px;
+            padding: 5px;
+            text-align: center;
+            width: calc(100% - 170px); /* Full lebar - lebar foto */
+        }
+        a {
+            display: block;
+            padding: 10px;
+            border: 1px solid #722a00;
+            border-radius: 30px;
+            background-color: #f0f0f0; /* Warna latar belakang */
+            color: #4d2e00;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+        a:hover {
+            background-color: #e0ad7a; /* Warna latar belakang saat dihover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Biodata</h1>
+        <div class="biodata-container">
+            <img src="fotonih.jpg" alt="Foto Profil" class="photo">
+        <div class="bio-details">
+                <p><strong>NIM :</strong> 2022610015</p>
+                <p><strong>Nama :</strong> Lira Irawan</p>
+                <p><strong>Umur :</strong> 19 Tahun</p>
+                <p><strong>Alamat :</strong> Jalan Trans Halmahera</p>
+                <p><strong>Jurusan :</strong> Teknik Informatika</p>
+                <p><strong>Angkatan :</strong> 2022</p>
+            </div>
+        <div class="bio-text">
+            <h2>Riwayat Pendidikan</h2>
+                SD : SD Inpres Bumirestu <br/>
+                SMP : SMP Negeri 2 Wasile <br/>
+                SMA : SMA Negeri 2 Halmahera Timur <br/><hr/>
+            <h2>Sosial Media</h2>
+            <a href="https://www.instagram.com/lyscentsky?igsh=MXVkMmp6anBtY2Zxcg==">Instagram</a><br/>
+            <a href="https://www.instagram.com/itppadang?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram Kampus</a><br/>
+            <a href="http://www.youtube.com/@teknikinformatikaitp567">Youtube Informatika</a><br/>      
+            </div>
+        <div class="a">
+            <h4><a href="menuutama.html">Kembali ke menu utama</a></h4>
+        </div>
+    </div>
+</body>
+</html>
